@@ -1,0 +1,6 @@
+v = input("Digite algo: ")
+print("Você digitou: ", v)
+print("É do tipo: ", type(v))
+print("É numérico: ", v.isnumeric())
+print("É alfabético: ", v.isalpha())
+print("É alfanumérico: ", v.isalnum())
